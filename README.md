@@ -4,6 +4,7 @@ Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Seman
 
 ## Demo:
 ### Multilingual Generation
+
 [Chinese](https://github.com/user-attachments/assets/03f9b408-d209-4674-8c82-2e4b3d5573bd)
 
 [Korean](https://github.com/user-attachments/assets/8a488b27-3fa1-48f5-9033-ad0b26905392)
@@ -14,6 +15,7 @@ Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Seman
 
 ### Long Video Generation Compared with SOTA Methods
 We compare our method with DiffTalk(CVPR23'), DINet(AAAI23'), IP-LAP(CVPR23'), MuseTalk(Arxiv2024), PC-AVS(CVPR21'), TalkLip(CVPR23'), Wav2Lip(MM'20)
+
 [Ours](https://github.com/user-attachments/assets/b7fb5bfd-7a15-4f73-a7e2-83916165c54c)
 
 [DiffTalk](https://github.com/user-attachments/assets/a4c9dc00-2310-4f0f-9c03-8a033711d868)
