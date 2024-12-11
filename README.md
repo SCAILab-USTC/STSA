@@ -10,7 +10,7 @@ Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Seman
 
 [DiffTalk](https://github.com/user-attachments/assets/a4c9dc00-2310-4f0f-9c03-8a033711d868)
 
-[DINet](https://github.com/user-attachments/assets/917a96ea-4f20-4e2b-9fe9-47bb0e242620)
+[DINet](https://github.com/user-attachments/assets/f1900c8c-a657-461a-84f2-062d2dc1930e)
 
 [IP-LAP](https://github.com/user-attachments/assets/a383e735-b204-436e-b4bd-75f85742837e)
 
