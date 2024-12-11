@@ -7,8 +7,9 @@ Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Seman
 ## Demo:
 ### Long Video Generation Compared with SOTA Methods
 Ours:
-https://github.com/user-attachments/assets/b7fb5bfd-7a15-4f73-a7e2-83916165c54c
-
+<video width="600" controls>
+  <source src="https://github.com/user-attachments/assets/b7fb5bfd-7a15-4f73-a7e2-83916165c54c" type="video/mp4">
+</video>
 
 
 ---
