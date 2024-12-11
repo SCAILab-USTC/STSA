@@ -2,8 +2,6 @@
 
 Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Semantic Alignment for Facial Visual Dubbing".
 
-<!-- <img src='./pbf.png' width=900> -->
-
 ## Demo:
 ### Multilingual Generation
 [Chinese](https://github.com/user-attachments/assets/03f9b408-d209-4674-8c82-2e4b3d5573bd)
@@ -15,7 +13,7 @@ Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Seman
 [Spanish](https://github.com/user-attachments/assets/0648785a-c929-4352-b5dc-49fb50167bb9)
 
 ### Long Video Generation Compared with SOTA Methods
-
+We compare our method with DiffTalk(CVPR23'), DINet(AAAI23'), IP-LAP(CVPR23'), MuseTalk(Arxiv2024), PC-AVS(CVPR21'), TalkLip(CVPR23'), Wav2Lip(MM'20)
 [Ours](https://github.com/user-attachments/assets/b7fb5bfd-7a15-4f73-a7e2-83916165c54c)
 
 [DiffTalk](https://github.com/user-attachments/assets/a4c9dc00-2310-4f0f-9c03-8a033711d868)
@@ -52,7 +50,8 @@ conda activate stsa
 pip install -r requirements.txt
 ```
 ### Quick Start
-Run the following command:
+Download the [pretrained weights](https://www.jianguoyun.com/p/DW9UAjMQqcOQDRiotuMFIAA), and put the weights under ./checkpoints 
+After this, run the following command:
 ```
 python inference.py --video_path "demo_templates/video/speakerine.mp4" --audio_path "demo_templates/audio/education.wav"
 ```
