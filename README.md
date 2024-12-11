@@ -1,11 +1,21 @@
-# STSA: Spatial-Temporal Semantic Alignment for Facial Visual Dubbing
+![image](https://github.com/user-attachments/assets/08eb63c9-8b9f-4ace-8a11-8c55157c66b6)# STSA: Spatial-Temporal Semantic Alignment for Facial Visual Dubbing
 
 Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Semantic Alignment for Facial Visual Dubbing".
 
 <!-- <img src='./pbf.png' width=900> -->
 
 ## Demo:
+### Multilingual Generation
+[Chinese](https://github.com/user-attachments/assets/03f9b408-d209-4674-8c82-2e4b3d5573bd)
+
+[Korean](https://github.com/user-attachments/assets/8a488b27-3fa1-48f5-9033-ad0b26905392)
+
+[Japanese](https://github.com/user-attachments/assets/c62a0028-c099-4001-92c9-2fd9f04ac1a0)
+
+[Spanish](https://github.com/user-attachments/assets/0648785a-c929-4352-b5dc-49fb50167bb9)
+
 ### Long Video Generation Compared with SOTA Methods
+
 [Ours](https://github.com/user-attachments/assets/b7fb5bfd-7a15-4f73-a7e2-83916165c54c)
 
 [DiffTalk](https://github.com/user-attachments/assets/a4c9dc00-2310-4f0f-9c03-8a033711d868)
