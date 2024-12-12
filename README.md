@@ -5,32 +5,32 @@ Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Seman
 ## Demo:
 ### Multilingual Generation
 
-[Chinese](https://github.com/user-attachments/assets/03f9b408-d209-4674-8c82-2e4b3d5573bd)
+[Chinese](https://github.com/user-attachments/assets/4e52356a-ed42-40ef-9ea3-5ffca7bbd3d1)
 
-[Korean](https://github.com/user-attachments/assets/8a488b27-3fa1-48f5-9033-ad0b26905392)
+[Korean](https://github.com/user-attachments/assets/e71cce15-0a18-45e5-b253-52c5e9fc4064)
 
-[Japanese](https://github.com/user-attachments/assets/c62a0028-c099-4001-92c9-2fd9f04ac1a0)
+[Japanese](https://github.com/user-attachments/assets/3880dc0d-aa2c-4ba7-8793-a29ab33dd129)
 
-[Spanish](https://github.com/user-attachments/assets/0648785a-c929-4352-b5dc-49fb50167bb9)
+[Spanish](https://github.com/user-attachments/assets/3fc89023-1b10-4902-a950-130c359ac81e)
 
 ### Long Video Generation Compared with SOTA Methods
 We compare our method with DiffTalk(CVPR23'), DINet(AAAI23'), IP-LAP(CVPR23'), MuseTalk(Arxiv2024), PC-AVS(CVPR21'), TalkLip(CVPR23'), Wav2Lip(MM'20)
 
-[Ours](https://github.com/user-attachments/assets/b7fb5bfd-7a15-4f73-a7e2-83916165c54c)
+[Ours](https://github.com/user-attachments/assets/b6e9b594-4e7a-41f3-ad8e-1998caa12b3b)
 
-[DiffTalk](https://github.com/user-attachments/assets/a4c9dc00-2310-4f0f-9c03-8a033711d868)
+[DiffTalk](https://github.com/user-attachments/assets/297fcb43-00f4-4d81-a022-70f07867ce03)
 
-[DINet](https://github.com/user-attachments/assets/f1900c8c-a657-461a-84f2-062d2dc1930e)
+[DINet](https://github.com/user-attachments/assets/1c14dc20-3556-4731-8c45-939e3df37c3b)
 
-[IP-LAP](https://github.com/user-attachments/assets/a383e735-b204-436e-b4bd-75f85742837e)
+[IP-LAP](https://github.com/user-attachments/assets/55466ea9-2d30-42cc-8ed8-ffe8878f2eb7)
 
-[MuseTalk](https://github.com/user-attachments/assets/d6d5ae67-95e3-4708-9259-966b54365344)
+[MuseTalk](https://github.com/user-attachments/assets/4233c7cb-8eb4-4977-8239-3c39055fc27f)
 
-[PC-AVS](https://github.com/user-attachments/assets/3b601d3f-04a0-4779-a2bd-68d249180ad2)
+[PC-AVS](https://github.com/user-attachments/assets/ca5e0b92-249a-4fe1-bf53-85d21e09e059)
 
-[TalkLip](https://github.com/user-attachments/assets/9db72cc8-e9d4-4ced-8680-bafe60ccbed3)
+[TalkLip](https://github.com/user-attachments/assets/e5e3d6ac-75dd-443f-af79-c60b94c7062c)
 
-[Wav2Lip](https://github.com/user-attachments/assets/7d397030-5773-4d9e-a5d6-0e22deba5e4c)
+[Wav2Lip](https://github.com/user-attachments/assets/0fe501d0-1c83-48c6-8998-6958377e9d4e)
 
 ---
 ## Inference:
