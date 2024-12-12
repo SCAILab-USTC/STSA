@@ -11,3 +11,4 @@ lws==1.2.7
 piq==0.8.0
 transformers == 4.38.2
 huggingface-hub == 0.21.3
+sync_batchnorm
