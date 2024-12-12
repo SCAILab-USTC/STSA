@@ -37,7 +37,7 @@ We compare our method with DiffTalk(CVPR23'), DINet(AAAI23'), IP-LAP(CVPR23'), M
 ### Requirements
 - Python 3.8.7
 - torch 1.12.1
-- torchvision 0.12.1
+- torchvision 0.13.1
 - librosa 0.9.2
 - ffmpeg
 
