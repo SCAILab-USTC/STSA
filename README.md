@@ -20,7 +20,7 @@ We compare our method with DiffTalk(CVPR23'), DINet(AAAI23'), IP-LAP(CVPR23'), M
 
 [DiffTalk](https://github.com/user-attachments/assets/297fcb43-00f4-4d81-a022-70f07867ce03)
 
-[DINet](https://github.com/user-attachments/assets/1c14dc20-3556-4731-8c45-939e3df37c3b)
+[DINet](https://github.com/user-attachments/assets/10b7ea15-0d01-4bcd-a036-fbe58b8bda33)
 
 [IP-LAP](https://github.com/user-attachments/assets/55466ea9-2d30-42cc-8ed8-ffe8878f2eb7)
 
