@@ -1,6 +1,12 @@
 # STSA: Spatial-Temporal Semantic Alignment for Facial Visual Dubbing
 
 Pytorch implementation for our ICME2025 submission "STSA: Spatial-Temporal Semantic Alignment for Facial Visual Dubbing".
+## Todo:
+- [x] inference code
+- [ ] paper & supplementary material
+- [ ] youtube demo 
+- [ ] training code
+- [ ] fine-tuning code 
 
 ## Demo:
 ### Multilingual Generation
