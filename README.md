@@ -2,17 +2,37 @@
 
 Pytorch implementation for our ICME2025 submission "STSA: **S**patial-**T**emporal **S**emantic **A**lignment for Facial Visual Dubbing".
 ![framework](inserts/model.png)
+<a href='https://arxiv.org/abs/2503.23039'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=vwtcteFYp64)
+
 ## Todo:
 - [x] inference code
 - [x] paper & supplementary material
-- [ ] youtube demo 
+- [x] youtube demo 
 - [ ] training code
 - [ ] fine-tuning code 
 
-[[Paper]](https://arxiv.org/abs/2503.23039) [[Supplementary material]](https://github.com/user-attachments/files/19544422/supp.pdf)
 
 ## Demo:
 ### Multilingual Generation
+<table class="center">
+<tr>
+    <td width=50% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/4e52356a-ed42-40ef-9ea3-5ffca7bbd3d1" muted="false"></video>
+    </td>
+    <td width=50% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/e71cce15-0a18-45e5-b253-52c5e9fc4064" muted="false"></video>
+    </td>
+</tr>
+<tr>
+    <td width=50% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/3880dc0d-aa2c-4ba7-8793-a29ab33dd129" muted="false"></video>
+    </td>
+    <td width=50% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/3fc89023-1b10-4902-a950-130c359ac81e" muted="false"></video>
+    </td>
+</tr>
+
+</table>
 
 [Chinese](https://github.com/user-attachments/assets/4e52356a-ed42-40ef-9ea3-5ffca7bbd3d1)
 
