@@ -34,34 +34,43 @@ Pytorch implementation for our ICME2025 submission "STSA: **S**patial-**T**empor
 
 </table>
 
-[Chinese](https://github.com/user-attachments/assets/4e52356a-ed42-40ef-9ea3-5ffca7bbd3d1)
-
-[Korean](https://github.com/user-attachments/assets/e71cce15-0a18-45e5-b253-52c5e9fc4064)
-
-[Japanese](https://github.com/user-attachments/assets/3880dc0d-aa2c-4ba7-8793-a29ab33dd129)
-
-[Spanish](https://github.com/user-attachments/assets/3fc89023-1b10-4902-a950-130c359ac81e)
 
 ### Long Video Generation Compared with SOTA Methods
 We compare our method with DiffTalk(CVPR23'), DINet(AAAI23'), IP-LAP(CVPR23'), MuseTalk(Arxiv2024), PC-AVS(CVPR21'), TalkLip(CVPR23'), Wav2Lip(MM'20)
 
-[Ours](https://github.com/user-attachments/assets/b6e9b594-4e7a-41f3-ad8e-1998caa12b3b)
+<table class="center">
+<tr>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/b6e9b594-4e7a-41f3-ad8e-1998caa12b3b" muted="false"></video>
+    </td>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/297fcb43-00f4-4d81-a022-70f07867ce03" muted="false"></video>
+    </td>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/10b7ea15-0d01-4bcd-a036-fbe58b8bda33" muted="false"></video>
+    </td>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/55466ea9-2d30-42cc-8ed8-ffe8878f2eb7" muted="false"></video>
+    </td>
+</tr>
+<tr>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/4233c7cb-8eb4-4977-8239-3c39055fc27f" muted="false"></video>
+    </td>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/ca5e0b92-249a-4fe1-bf53-85d21e09e059" muted="false"></video>
+    </td>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/e5e3d6ac-75dd-443f-af79-c60b94c7062c" muted="false"></video>
+    </td>
+    <td width=25% style="border: none">
+        <video controls loop src="https://github.com/user-attachments/assets/0fe501d0-1c83-48c6-8998-6958377e9d4e" muted="false"></video>
+    </td>
+</tr>
 
-[DiffTalk](https://github.com/user-attachments/assets/297fcb43-00f4-4d81-a022-70f07867ce03)
+</table>
 
-[DINet](https://github.com/user-attachments/assets/10b7ea15-0d01-4bcd-a036-fbe58b8bda33)
 
-[IP-LAP](https://github.com/user-attachments/assets/55466ea9-2d30-42cc-8ed8-ffe8878f2eb7)
-
-[MuseTalk](https://github.com/user-attachments/assets/4233c7cb-8eb4-4977-8239-3c39055fc27f)
-
-[PC-AVS](https://github.com/user-attachments/assets/ca5e0b92-249a-4fe1-bf53-85d21e09e059)
-
-[TalkLip](https://github.com/user-attachments/assets/e5e3d6ac-75dd-443f-af79-c60b94c7062c)
-
-[Wav2Lip](https://github.com/user-attachments/assets/0fe501d0-1c83-48c6-8998-6958377e9d4e)
-
----
 ## Inference:
 ### Requirements
 - Python 3.8.7
