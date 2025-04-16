@@ -1,8 +1,12 @@
 # STSA: Spatial-Temporal Semantic Alignment for Facial Visual Dubbing
+<div align="center" style="font-family: charter;">
 
 Pytorch implementation for our ICME2025 submission "STSA: **S**patial-**T**emporal **S**emantic **A**lignment for Facial Visual Dubbing".
 ![framework](inserts/model.png)
-<a href='https://arxiv.org/abs/2503.23039'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=vwtcteFYp64)
+<a href='https://arxiv.org/abs/2503.23039'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://github.com/user-attachments/files/19774563/supp.pdf'><img src='https://img.shields.io/badge/Supple-PDF-blue'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=vwtcteFYp64)
+
+
+</div>
 
 ## Todo:
 - [x] inference code
