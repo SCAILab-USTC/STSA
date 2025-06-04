@@ -9,12 +9,14 @@ Pytorch implementation for our ICME2025 submission "STSA: **S**patial-**T**empor
 
 </div>
 
+News: 🎉 This paper was selected as ICME 2025 Oral!
+
 ## Todo:
 - [x] inference code
 - [x] paper & supplementary material
 - [x] youtube demo 
-- [ ] training code
-- [ ] fine-tuning code 
+- [x] training code
+- [x] fine-tuning code 
 
 
 ## Demo:
@@ -95,9 +97,86 @@ conda activate stsa
 pip install -r requirements.txt
 ```
 ### Quick Start
-Download the [pretrained weights](https://www.jianguoyun.com/p/DW9UAjMQqcOQDRiotuMFIAA), and put the weights under ./checkpoints 
+Download the [pretrained weights](https://drive.google.com/file/d/1m_vwglQxnyX9wumW8_JLECpDzxR9OMaw/view?usp=sharing), and put the weights under ./checkpoints 
 After this, run the following command:
 ```
 python inference.py --video_path "demo_templates/video/speakerine.mp4" --audio_path "demo_templates/audio/education.wav"
 ```
 You can specify the `--video_path` and `--audio_path` option to inference other videos.
+
+## Training:
+
+### Dataset Pre-process
+1. Download [LRS2](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) dataset, and move the **LRS2/mvlrs_v1/main/** folder into ./processed_lrs2 folder.
+
+2. Extract audio from LRS2 videos by running:
+```
+python preprocess/preprocess_audio.py --data_root ./processed_lrs2/main/ --out_root ./processed_lrs2/lrs2_audio
+```
+
+3. Extract Wav2Vec 2.0 feature by running:
+```
+python preprocess/extract_wav2vec_feature.py
+```
+
+4. Extract face, sketch, landmarks by running:
+```
+python preprocess/preprocess_face.py
+```
+
+5. Convert sketch into heatmap by running:
+```
+python preprocess/preprocess_heatmap.py
+```
+
+After precessing, the processed_lrs2 folder structure is following:
+```
+./processed_lrs2/
+├── lrs2_audio/
+├── lrs2_face/
+├── lrs2_heat_img_lower/
+├── lrs2_heat_img_upper/
+├── lrs2_heat_img_whole/
+├── lrs2_heatmap_lower/
+├── lrs2_heatmap_upper/
+├── lrs2_heatmap_whole/
+├── lrs2_landmarks/
+├── lrs2_sketch_lower/
+├── lrs2_sketch_upper/
+├── lrs2_sketch_whole/
+└── main/
+```
+
+### Stage1: Heatmap Predictor Training
+Run the following command, and adjust the lr (56 line) to 1e-5 at 75k step, to 1e-6 at 130k step.
+```
+python train_stage1.py
+```
+### Stage2: Face Synthesizer Training
+First downlowad the syncnet pretrained weight from [here](https://drive.google.com/file/d/1o37wKkt4KRnnafDGXeKZ8uYoF3QE0xix/view?usp=sharing), and put it under ./checkpoints/syncnet/
+Then run the following command:
+```
+python train_stage2.py
+```
+### Stage3: End-to-end Fine-tuning
+In train_stage3.py, replace the **finetune_path** (60 line) and **finetune_path_disc** (61 line) to the face synthesizer and discriminator weight path which you've trained in stage2; Replace the **heatmap_finetune_path** (62 line) to the heatmap predictor weight path which you've trained in stage1.
+The run the following command:
+```
+python train_stage3.py
+```
+
+## Acknowledge:
+We thank [IP-LAP](https://github.com/Weizhi-Zhong/IP_LAP), [Wav2Lip](https://github.com/Rudrabha/Wav2Lip), [DINet](https://github.com/MRzzm/DINet), [LAB](https://github.com/wywu/LAB) and [DIM](https://github.com/rdevon/DIM/tree/master) for making their open-source resources available, which supported the development of this work.
+
+## Citation:
+If you find this project useful, welcome to cite us!
+```
+@article{ding2025stsa,
+  title={STSA: Spatial-Temporal Semantic Alignment for Visual Dubbing},
+  author={Ding, Zijun and Xiong, Mingdie and Zhu, Congcong and Chen, Jingrun},
+  journal={arXiv preprint arXiv:2503.23039},
+  year={2025}
+}
+```
+
+
